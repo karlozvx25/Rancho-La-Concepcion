@@ -1,0 +1,155 @@
+{
+  "description": "Recursos visuales exactos de la beta aprobada; actualizar al sustituir medios intencionalmente.",
+  "files": [
+    {
+      "path": "public/media/bancas-1200.webp",
+      "bytes": 268718,
+      "sha256": "7ce6f02e58b47aa7daa038b61f0deeb243d6d15c5b37c6c16378009d97c07bf5"
+    },
+    {
+      "path": "public/media/bancas-2000.webp",
+      "bytes": 575286,
+      "sha256": "1bdfa60ff06bc9e79c27ce55a29cd46548abb3d098c2700641276fbfb06dd68b"
+    },
+    {
+      "path": "public/media/bancas-640.webp",
+      "bytes": 95264,
+      "sha256": "a0a90318a4d5199f90d8f8198f2fffdb2f1d252d4b51224dd61d36c2d6f8caa3"
+    },
+    {
+      "path": "public/media/caballerizas-1200.webp",
+      "bytes": 368484,
+      "sha256": "7d48329f3f24dab94fa32a913198aa3f730de3b996a80bd354509e7975cb23db"
+    },
+    {
+      "path": "public/media/caballerizas-2000.webp",
+      "bytes": 763782,
+      "sha256": "97edee393f45e4ff20ba3447a139281ad292fb4e1db9b79fadd2fd199b16c0d0"
+    },
+    {
+      "path": "public/media/caballerizas-640.webp",
+      "bytes": 124872,
+      "sha256": "a777a419ed2977238c4245b5d839aa64ce113bf539f62c05e2c8e2a3ab79c231"
+    },
+    {
+      "path": "public/media/caballo-1200.webp",
+      "bytes": 423326,
+      "sha256": "4ccb5900042cada09ffba8845dfa0961dc1ab8d148d0362f1c6e174f58a600aa"
+    },
+    {
+      "path": "public/media/caballo-2000.webp",
+      "bytes": 1065218,
+      "sha256": "425176a7329e1834aa2847ad5283129af763bc2b319ee45ecb3064f4ce17ce6a"
+    },
+    {
+      "path": "public/media/caballo-640.webp",
+      "bytes": 126150,
+      "sha256": "561a0d0db923cc6ade11778f8129e2de09f04ff584158caaaf67c23cad807d15"
+    },
+    {
+      "path": "public/media/capilla-1200.webp",
+      "bytes": 367906,
+      "sha256": "86b8d730fb943de7ee54e1eed10335194514242bba201f64d79a35a985529df1"
+    },
+    {
+      "path": "public/media/capilla-2000.webp",
+      "bytes": 812874,
+      "sha256": "f026943b4ec8be237f173e72f9a3530eab9a67b3b906434ef1ed4a3f243efc03"
+    },
+    {
+      "path": "public/media/capilla-640.webp",
+      "bytes": 116186,
+      "sha256": "97ab4d6cef4ebd2352c58327b10328d3a64309fd10affaa32c6d8739fdbc62c4"
+    },
+    {
+      "path": "public/media/el-umbral-poster.jpg",
+      "bytes": 63341,
+      "sha256": "faff9197fb21c8dea5cf215c6e80ae8dfaeb50314e3c1305ee9dec9c786a23de"
+    },
+    {
+      "path": "public/media/el-umbral.mp4",
+      "bytes": 4310106,
+      "sha256": "2cd7032f24d3cbd495ddc4ada8d533e68d4403f985f01b3d4f035a88940e6326"
+    },
+    {
+      "path": "public/media/entre-pinos-poster.jpg",
+      "bytes": 84185,
+      "sha256": "e5fc3b01caacfcade70af6a5d3b1b9a8bc9be3f11b9c73ae5adda6b2ddca2c0a"
+    },
+    {
+      "path": "public/media/entre-pinos.mp4",
+      "bytes": 6278932,
+      "sha256": "2681633632680e93dfccccdbe8db8a849485f2f3640bade5da3b7c2451b307ec"
+    },
+    {
+      "path": "public/media/horizonte-1200.webp",
+      "bytes": 94996,
+      "sha256": "fdfd120f5805f6fcdf6a5a5b21357efe60e65bab9dcbe5ad0620e8a6d3a38da1"
+    },
+    {
+      "path": "public/media/horizonte-2000.webp",
+      "bytes": 214724,
+      "sha256": "fcdd95a2ff75e0e4a87ab31599be2a9d2c730ae68a892e8ea34311838c5ab90a"
+    },
+    {
+      "path": "public/media/horizonte-640.webp",
+      "bytes": 29330,
+      "sha256": "b5978f94ec6fe5574511fc362486818d125f2e8496bb635e3c6af99cf0ddd1bb"
+    },
+    {
+      "path": "public/media/interior-capilla-1200.webp",
+      "bytes": 293534,
+      "sha256": "978a3038dd6323b9019bddac13c4e62634fc7d157a86c9662feb60f86b3691c9"
+    },
+    {
+      "path": "public/media/interior-capilla-2000.webp",
+      "bytes": 634992,
+      "sha256": "df483fbb41c604d8f10415d85390b9c1ef67c7c3ed668a6cd577a940d617a2fd"
+    },
+    {
+      "path": "public/media/interior-capilla-640.webp",
+      "bytes": 100080,
+      "sha256": "552b5a5e3edc0935428a043e1e41d6e99fe9c16c4094a485b8072103f0050bc0"
+    },
+    {
+      "path": "public/media/paisaje-1200.webp",
+      "bytes": 261900,
+      "sha256": "742760fbfafbdfd575eebba3081555ca38b803ca354bdb0a6f429e0508771035"
+    },
+    {
+      "path": "public/media/paisaje-2000.webp",
+      "bytes": 619036,
+      "sha256": "52d10902269fa3fde11320c08aae24d2d16b6eb2a508d997422f44ddbba5f27c"
+    },
+    {
+      "path": "public/media/paisaje-640.webp",
+      "bytes": 76598,
+      "sha256": "c2cd4d4d18dd174dc4edfee60939b549bfc37098aeab69691a3598982280d7ba"
+    },
+    {
+      "path": "public/media/pista-1200.webp",
+      "bytes": 518370,
+      "sha256": "742d53dfb5d1d31e1303f7e5fe8b1aea0168c37d9a8079c3bce2a6fef0fbc7bb"
+    },
+    {
+      "path": "public/media/pista-2000.webp",
+      "bytes": 1168214,
+      "sha256": "bb7a603dcb7c3c1a4f0ca9b42adb2bd583d544f4248b24f72455cfad0fc03824"
+    },
+    {
+      "path": "public/media/pista-640.webp",
+      "bytes": 157356,
+      "sha256": "36183a47d3b5678f19d482438c2a7588989948b3a38545e1918037d8c7b30a90"
+    },
+    {
+      "path": "public/media/ritmo-ecuestre-poster.jpg",
+      "bytes": 106529,
+      "sha256": "9b4906ae3ef2d360acfd40017f256056a405fd019b9a0e966ac491cf1ddc991c"
+    },
+    {
+      "path": "public/media/ritmo-ecuestre.mp4",
+      "bytes": 6281527,
+      "sha256": "70061bd289fdbbc80b62a5dc57e742dfa7ddb1e0b7be19c2a0c16db7b7b00189"
+    }
+  ]
+}
