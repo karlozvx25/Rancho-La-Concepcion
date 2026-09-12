@@ -28,6 +28,8 @@ La publicación inicial de Sites no se completó por problemas de conexión. No 
 
 ## Otros alojamientos
 
+**Actualización para Hostinger:** ya existe una exportación estática dedicada. Ejecutar `npm run build:hostinger` y publicar `dist/client`; consultar [HOSTINGER.md](HOSTINGER.md). Las notas siguientes describen la compilación original para Workers.
+
 Esta entrega no es un sitio de archivos estáticos listo para GitHub Pages, ni incluye una configuración de despliegue para Vercel, Netlify u otro proveedor. La presencia de imports desde `next` no convierte el runtime en Next.js estándar.
 
 Para otro alojamiento, el equipo debe adaptar la configuración y validar la compatibilidad del runtime. Una exportación estática es un cambio futuro que requiere su propia comprobación. No subir la carpeta fuente a un alojamiento estático esperando que ejecute React por sí sola.

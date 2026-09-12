@@ -4,7 +4,9 @@ export const metadata: Metadata = {
   title: 'Rancho La Concepción | Un lugar para tu historia',
   description:
     'Naturaleza, celebraciones y tradición ecuestre en Villa Victoria, Estado de México. Descubre Rancho La Concepción.',
-  robots: { index: false, follow: false },
+  metadataBase: new URL('https://rancholaconcepcion.mx'),
+  alternates: { canonical: '/' },
+  robots: { index: true, follow: true },
 };
 export default function RootLayout({
   children,

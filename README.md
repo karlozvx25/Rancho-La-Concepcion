@@ -4,6 +4,8 @@ Beta editorial del sitio web de Rancho La Concepción, Villa Victoria, Estado de
 
 ## Empezar
 
+**Hostinger:** usa `npm run build:hostinger`, con salida en `dist/client`. Consulta [la guía de publicación](docs/HOSTINGER.md).
+
 Requisitos: Node.js 22 (mínimo 22.13) y npm. El proyecto incluye `.nvmrc` y un archivo de dependencias bloqueadas.
 
 ```bash
@@ -84,6 +86,6 @@ La apariencia, textos y comportamiento de la beta aprobada se conservan. La entr
 
 La compilación y TypeScript se validaron en la entrega. La verificación automática de medios compara el inventario y las huellas SHA-256. No se han realizado pruebas automatizadas de interacción ni una certificación de accesibilidad.
 
-Este repositorio entrega **código y recursos**; subirlo a GitHub no publica una web comercial. La publicación anterior de Sites quedó pendiente por problemas de conexión. Los metadatos mantienen `noindex` hasta la aprobación de lanzamiento.
+Este repositorio entrega **código y recursos**; subirlo a GitHub no publica una web comercial. La publicación anterior de Sites quedó pendiente por problemas de conexión. La preparación para Hostinger incorpora el dominio canónico y permite indexación según la solicitud de lanzamiento.
 
 El material visual fue proporcionado para este proyecto. No se concede una licencia de reutilización independiente de fotografías, videos o identidad.
