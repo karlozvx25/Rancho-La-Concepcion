@@ -1,6 +1,8 @@
 # Publicación en Hostinger
 
-Dominio previsto: https://rancholaconcepcion.mx
+Dominio: https://rancholaconcepcion.mx
+
+Modalidad elegida: archivos estáticos en `public_html`, dentro de Business Web Hosting. Node.js se utiliza para compilar localmente o en CI; no se necesita un proceso Node.js en el alojamiento.
 
 ## Configuración
 
@@ -16,13 +18,23 @@ Este comando activa `output: 'export'` y omite los complementos de Cloudflare y 
 
 ## Carga desde archivo
 
-Desde una revisión confirmada del repositorio:
+Desde una revisión confirmada del repositorio, instalar dependencias y generar los archivos públicos:
 
 ```bash
-git archive --format=zip --output=rancho-hostinger.zip HEAD
+npm ci
+npm run check
+npm run build:hostinger
 ```
 
-Subir ese ZIP en **Añadir sitio web → Desplegar app web → Sube los archivos**. Contiene código fuente, lockfile y recursos. No incluir node_modules, dist, .git, .env, credenciales ni documentos privados. Configurar el comando y la salida anteriores antes de desplegar.
+Comprimir **el contenido** de `dist/client` como `rancho-public.zip`. `index.html` debe quedar en la raíz del ZIP, junto con `_next/`, `media/` y los demás archivos generados. Se pueden excluir `.vite/` y los archivos README. No comprimir la carpeta contenedora `dist/client`.
+
+1. En hPanel, abrir el sitio **rancholaconcepcion.mx → Administrador de archivos → public_html**.
+2. Antes de actualizar una publicación existente, guardar una copia recuperable fuera de `public_html`.
+3. Subir `rancho-public.zip` y extraer su contenido directamente en `public_html`. Confirmar que existe `public_html/index.html`, sin una carpeta intermedia.
+4. Mover el ZIP fuera de la carpeta pública después de extraerlo. Si la página de bienvenida `default.php` interfiere, conservarla como respaldo fuera de `public_html`.
+5. Revisar el dominio con HTTPS y los controles de la página antes de dar por terminado el despliegue.
+
+No subir el código fuente, `node_modules`, `.git`, `.env`, credenciales ni documentos privados a `public_html`. Un ZIP generado con `git archive` contiene fuentes y **no sirve como publicación directa** en esta modalidad.
 
 ## GitHub
 
@@ -33,3 +45,7 @@ La fuente sigue siendo `karlozvx25/Rancho-La-Concepcion`. Al preparar el alta, e
 Comprobar dominio y HTTPS, imágenes, los tres videos, galería, menú móvil y formulario. Este último sigue siendo una demostración: no envía solicitudes ni confirma reservas. Mantener esos avisos hasta conectar el contacto oficial.
 
 Los metadatos incluyen el dominio canónico y permiten indexación. La identidad provisional sigue siendo la de la beta aprobada. Esta guía documenta el proceso; el estado final se debe comprobar en hPanel y en el dominio.
+
+## Estado al 13 de septiembre de 2026
+
+La compilación estática y las verificaciones de tipos y medios se completaron correctamente. El dominio responde con HTTPS, pero aún muestra la bienvenida de Hostinger. El paquete público está preparado; siguen pendientes la carga, extracción y verificación de la página publicada. No confundir la respuesta HTTPS del alojamiento con la publicación del diseño aprobado.
